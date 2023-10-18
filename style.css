@@ -1,0 +1,240 @@
+body{
+    font-family: "Poppins",sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #555;
+    color: #000;
+}
+nav ul li{
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+}
+nav p{
+    font-size: 26px;
+}
+nav ul li a:hover{
+    transition: 0.2s ease-out;
+     background-color: #000;
+     color: #ccc;
+}
+nav p,button:hover{
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    width: fit-content;
+}
+.child-div{
+    width: 150px;
+    height: 35px;
+    background-color: #ccc;
+    color: #000;
+    font-size: 26px;
+    text-align: justify; 
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 500px;
+
+}
+.child-div b{
+    font-size: 34px;
+}
+.text{
+    background-color: #000;
+    width: fit-content;
+    color: #fff;
+    text-align: justify;
+    font-size: 16px;
+    position: absolute;
+    padding-top: 10px;
+    padding: 5px;
+}
+#project{
+    margin-top: 100px;
+}
+.contain img{
+    width: 270px;
+    height: fit-content;
+}
+.container, .container2{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.contain{
+    margin: 10px;
+    padding: 10px;
+}
+#about{
+    margin-top: 34pc;
+}
+.about-us{
+    width: 290px;
+    height: fit-content;
+}
+.about-us img{
+    width: 290px;
+    height: fit-content;
+}
+.about-us button{
+    width: 100%;
+    opacity: 0.8;
+    border: none;
+   padding: 8px;
+}
+.container3{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.container3 .about-us{
+    padding: 5px;
+    margin: 5px;
+}
+input{
+    width: 1000px;
+    opacity: 0.5;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+}
+textarea{
+    width: 1000px;
+    position: sticky;
+    opacity: 0.8;
+}
+#btn{
+    width: 100px;
+    opacity: 0.8;
+    border: none;
+   padding: 8px;
+   background-color: #000;
+   color: #ccc;
+}
+#btn:hover{
+    transition: 0.2s ease-out;
+    background-color: #ccc;
+     color: #000;
+}
+#img3{
+    width: 1000px;
+    height: 500px;
+    margin-left: 140px;
+}
+#ptag{
+    text-align: center;
+    opacity: 0.6;
+}
+
+@media only screen and (max-width:640px){
+     ul li a{
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+        margin-right: 10px;
+    }
+    nav p{
+        font-size: 14px;
+        margin: 0;
+        border: 0;
+    }
+    .main-div .imgtag{
+        width: 280px;
+        height: fit-content;
+    }
+    .child-div{
+        width: 50px;
+        height: fit-content;
+        margin: 0;
+        padding: 0;
+        margin-left: 90px;
+        margin-top: 180px;
+    }
+    .contain img{
+        width: 240px;
+        height: fit-content;
+    }
+    .container{
+         float: none;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .container2{
+        float: none;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    #project h1{
+        text-align: center;
+    }
+    #about{
+        width: 360px;
+        height: fit-content;
+        margin: auto;
+    }
+    #about p{
+        width: 300px;
+        height: fit-content;
+        text-align: justify;
+    }
+    #about h1{
+        text-align: center;
+        top: 0;
+    }
+    .about-us p{
+        width: 80%;
+        height: fit-content;
+    }
+    .container3{
+        float: none;
+        flex-direction: column;
+    }
+    .about-us img{
+        width: 80%;
+        height: fit-content;
+    }
+    .about-us button{
+        width: 80%;
+        height: fit-content;
+    }
+    #contact h1{
+        text-align: center;
+    }
+    #contact input{
+        width: 250px;
+        height: fit-content;
+        margin: 5px;
+        padding: 5px;
+    }
+    #contact textarea{
+        width: 250px;
+        height: fit-content;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #img3{
+        width: 280px;
+        height: fit-content;
+        margin: auto;
+    }
+
+}
